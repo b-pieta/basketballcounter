@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <div class="home-score">
+                <div class="home-score-inside" id="startingScore">0</div>
+            </div>
+            <div class="score-box">
+                <button class ='btn' onclick="plusOne()">+1</button>
+                <button class ='btn' onclick ="plusTwo()">+2</button>
+                <button class ='btn' onclick ="plusThree()">+3</button>
+            </div>
+           
+        </div>
+        
+        <div>
+            <h3>GUEST</h3>
+            <div class="home-score">
+                <div class="home-score-inside" id="startingScore2">0</div>
+            </div>
+            <div class="score-box">
+                <button class ='btn' id="plusOnePoint"onclick ="plusOneS()">+1</button>
+                <button class ='btn' id="plusTwoPoints"onclick ="plusTwoS()">+2</button>
+                <button class ='btn' id="plusThreePoints"onclick ="plusThreeS()">+3</button>
+            </div>
+            
+        </div>
+
+        <button class="btn2" onclick ="resetGame()">NEW GAME</button>
+        
+    </div>
+
+   
+
+    <script src="js/script.js"></script>
+</body>
+</html>
